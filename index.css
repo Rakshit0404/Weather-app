@@ -1,0 +1,79 @@
+body{
+    height:100vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    background-image: url(https://www.kenya.campusfrance.org/sites/pays/files/kenya/new-history-forecast-bulk_0.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+#container{
+    width:350px;
+    height:530px;
+    background-image: linear-gradient(120deg,rgba(8, 218, 183, 0.4),rgba(43, 146, 112, 0.4));
+    box-shadow: 3px 3px 13px rgb(82, 79, 79);
+    backdrop-filter: blur(10px);
+    border-radius: 3px;
+}
+.heading{
+    width:100%;
+    height:37px;
+    font-size: 25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(223, 221, 221);
+    margin-top: 13px;
+    font-weight: 700;
+    text-shadow: 2px 2px 7px rgb(51, 50, 50);
+}
+#searchouter{
+    width:100%;
+    height:31px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#search{
+    height: 100%;
+    width: 96%;
+    border: 0px;
+    background-color:rgba(255, 99, 71, 0.5) ;
+    box-sizing: border-box;
+    border-radius:20px 0px;
+    padding-left: 10px;
+    color: white;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    box-shadow: 2px 2px 6px rgb(95, 95, 95);
+}
+#search:focus{
+    outline:none;
+}
+#search::placeholder{
+    color:rgb(209, 204, 204);
+    font-weight: 200;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+#weathercont{
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content: center;
+    margin-top: -40px;
+    margin-left: 30px;
+}
+
+#tempimg{
+    width:130px;
+    height:130px;
+}
+.tempdetail{
+    display:flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding:5px;
+    color: rgb(255, 255, 255);
+}
